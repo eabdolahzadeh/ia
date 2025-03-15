@@ -1,17 +1,19 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <TabGroup>
         <TabList>
-          <Tab>Tab 1</Tab>
-          <Tab>Tab 2</Tab>
-          <Tab>Tab 3</Tab>
+          <Tab>مشخصات پایوران</Tab>
+          <Tab>تنظیم لوحه</Tab>
+          <Tab>لوحه های گذشته</Tab>
+          <Tab>تنظیمات</Tab>
         </TabList>
         <TabPanels>
-          <TabPanel>Content 1</TabPanel>
-          <TabPanel>Content 2</TabPanel>
-          <TabPanel>Content 3</TabPanel>
+          <TabPanel>مشخصات پایوران</TabPanel>
+          <TabPanel>تنظیم لوحه</TabPanel>
+          <TabPanel>لوحه های گذشته</TabPanel>
+          <TabPanel>تنظیمات</TabPanel>
         </TabPanels>
       </TabGroup>
     </>
