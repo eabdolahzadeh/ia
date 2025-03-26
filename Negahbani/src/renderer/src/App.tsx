@@ -1,4 +1,5 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
+import Last from './components/Last'
 function App(): JSX.Element {
   return (
     <>
@@ -12,7 +13,9 @@ function App(): JSX.Element {
         <TabPanels>
           <TabPanel>مشخصات پایوران</TabPanel>
           <TabPanel>تنظیم لوحه</TabPanel>
-          <TabPanel>لوحه های گذشته</TabPanel>
+          <TabPanel>
+            <Last />
+          </TabPanel>
           <TabPanel>تنظیمات</TabPanel>
         </TabPanels>
       </TabGroup>
